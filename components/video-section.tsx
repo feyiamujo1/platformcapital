@@ -35,7 +35,7 @@ export function VideoSection({ videoLinks }: VideoSectionProps) {
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-colors">
               <div className="rounded-full bg-primary/90 p-3 text-primary-foreground">
-                <Play className="h-8 w-8" />
+                <Play className="h-4 w-4" />
               </div>
             </div>
           </div>

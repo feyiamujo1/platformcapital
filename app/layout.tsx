@@ -59,12 +59,11 @@ export default function RootLayout({
           disableTransitionOnChange>
           {children}
         </ThemeProvider>
-        <script
-          src="//code.tidio.co/e2nmbjcnictybnbfwyr4fo3j7gcwbgeo.js"
-          async></script>
+        <Tawk />
       </body>
     </html>
   );
 }
 
-import "./globals.css";
+import "./globals.css";import Tawk from "@/components/tawk";
+

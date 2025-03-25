@@ -21,6 +21,23 @@ body {
   }
 }
 
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Moves by half, seamless effect */
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+@media (hover: hover) {
+  .animate-scroll:hover {
+    animation-play-state: paused; /* Pause on hover */
+  }
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;

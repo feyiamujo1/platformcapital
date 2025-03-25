@@ -11,10 +11,11 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu";
+import { usePathname } from "next/navigation";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathName = window.location.pathname;
+  const pathName = usePathname();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

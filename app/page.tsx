@@ -745,10 +745,10 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
+                <h2 className="text-3xl md:text-5xl font-medium tracking-tight mb-6">
                   Events & Conferences
                 </h2>
-                <h3 className="text-2xl font-bold mb-4">
+                <h3 className="text-2xl font-medium mb-4">
                   Africa Walk Conference
                 </h3>
                 <p className="text-lg mb-6">
